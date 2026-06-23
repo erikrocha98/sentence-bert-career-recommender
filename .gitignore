@@ -1,4 +1,6 @@
 documentacao/
 _FundIA__TP3_TransferLearning_2026_1.pdf
 Proposta_Refinada_NLP_UFMG.pdf
-CLAUDE.md
+/relatorio
+/.venv
+/.pytest_cache
