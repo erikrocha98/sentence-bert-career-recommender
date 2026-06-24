@@ -4,3 +4,5 @@ Proposta_Refinada_NLP_UFMG.pdf
 /relatorio
 /.venv
 /.pytest_cache
+__pycache__/
+*.pyc
