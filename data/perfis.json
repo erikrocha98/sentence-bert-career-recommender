@@ -1,0 +1,186 @@
+[
+  {
+    "id": "ml_engineer",
+    "nome": "Engenheiro de Machine Learning",
+    "descricao": "Projeta, treina e coloca em produção modelos de aprendizado de máquina e redes neurais profundas, cuidando do pipeline de dados, do treinamento, da avaliação e do deploy em escala.",
+    "competencias": ["aprendizado de máquina", "deep learning", "redes neurais", "engenharia de features", "avaliação de modelos", "validação cruzada", "MLOps", "otimização de hiperparâmetros", "regularização"],
+    "tecnologias": ["Python", "PyTorch", "TensorFlow", "scikit-learn", "Docker", "Kubernetes", "MLflow"],
+    "area": "Inteligência Artificial"
+  },
+  {
+    "id": "data_scientist",
+    "nome": "Cientista de Dados",
+    "descricao": "Extrai conhecimento de dados aplicando estatística, modelagem preditiva e aprendizado de máquina, do tratamento e exploração dos dados à comunicação de resultados para a tomada de decisão.",
+    "competencias": ["ciência de dados", "análise estatística", "modelagem preditiva", "análise exploratória", "visualização de dados", "regressão", "inferência estatística", "aprendizado de máquina", "limpeza de dados"],
+    "tecnologias": ["Python", "pandas", "scikit-learn", "Jupyter", "SQL", "Matplotlib", "R"],
+    "area": "Ciência de Dados"
+  },
+  {
+    "id": "data_engineer",
+    "nome": "Engenheiro de Dados",
+    "descricao": "Constrói e mantém a infraestrutura de dados, projetando pipelines de extração, transformação e carga, modelando bancos e armazéns de dados para alimentar análises e modelos.",
+    "competencias": ["modelagem de dados", "ETL", "data warehouse", "modelagem dimensional", "OLAP", "bancos de dados relacionais", "big data", "integração de fontes de dados", "indexação"],
+    "tecnologias": ["SQL", "Python", "Apache Spark", "Apache Airflow", "PostgreSQL", "Hadoop", "Kafka"],
+    "area": "Engenharia de Dados"
+  },
+  {
+    "id": "software_engineer",
+    "nome": "Engenheiro de Software",
+    "descricao": "Projeta, implementa e mantém sistemas de software de média e grande complexidade aplicando programação orientada a objetos, estruturas de dados, boas práticas de projeto, modularização e testes.",
+    "competencias": ["programação orientada a objetos", "estruturas de dados", "algoritmos", "projeto de software", "testes de software", "modularização", "tratamento de exceções", "qualidade de código"],
+    "tecnologias": ["Java", "Python", "C++", "Git", "JUnit", "Docker"],
+    "area": "Engenharia de Software"
+  },
+  {
+    "id": "nlp_engineer",
+    "nome": "Engenheiro de Processamento de Linguagem Natural",
+    "descricao": "Desenvolve sistemas que entendem e geram linguagem humana, aplicando aprendizado profundo, embeddings e modelos de linguagem a tarefas como busca semântica, classificação e extração de informação.",
+    "competencias": ["processamento de linguagem natural", "aprendizado profundo", "redes neurais", "representação de conhecimento", "embeddings", "busca semântica", "aprendizado de máquina", "modelos de linguagem"],
+    "tecnologias": ["Python", "PyTorch", "Hugging Face Transformers", "spaCy", "sentence-transformers", "BERT"],
+    "area": "Inteligência Artificial"
+  },
+  {
+    "id": "computer_vision_scientist",
+    "nome": "Cientista de Visão Computacional",
+    "descricao": "Cria sistemas que interpretam imagens e vídeos, aplicando processamento de imagens, extração de características e redes neurais convolucionais para detecção, segmentação e reconhecimento de objetos.",
+    "competencias": ["visão computacional", "processamento digital de imagens", "redes neurais convolucionais", "aprendizado profundo", "extração de características", "segmentação de imagens", "reconhecimento de objetos", "detecção de bordas"],
+    "tecnologias": ["Python", "OpenCV", "PyTorch", "TensorFlow", "CUDA"],
+    "area": "Inteligência Artificial"
+  },
+  {
+    "id": "ai_researcher",
+    "nome": "Pesquisador de Inteligência Artificial",
+    "descricao": "Investiga e propõe novos algoritmos de inteligência artificial e aprendizado de máquina, formalizando problemas como busca, raciocínio e otimização, e validando hipóteses experimentalmente.",
+    "competencias": ["inteligência artificial", "agentes inteligentes", "busca heurística", "representação do conhecimento", "raciocínio lógico", "aprendizado de máquina", "otimização", "planejamento", "satisfação de restrições"],
+    "tecnologias": ["Python", "PyTorch", "NumPy", "LaTeX", "Jupyter"],
+    "area": "Inteligência Artificial"
+  },
+  {
+    "id": "data_mining_specialist",
+    "nome": "Especialista em Mineração de Dados",
+    "descricao": "Descobre padrões e conhecimento útil em grandes bases de dados, aplicando técnicas de classificação, agrupamento, regras de associação e detecção de anomalias.",
+    "competencias": ["mineração de dados", "descoberta de conhecimento", "classificação", "agrupamento", "regras de associação", "detecção de anomalias", "pré-processamento de dados", "avaliação de padrões"],
+    "tecnologias": ["Python", "scikit-learn", "SQL", "pandas", "Weka"],
+    "area": "Ciência de Dados"
+  },
+  {
+    "id": "mlops_engineer",
+    "nome": "Engenheiro de MLOps",
+    "descricao": "Automatiza e operacionaliza o ciclo de vida de modelos de machine learning, garantindo deploy contínuo, monitoramento, versionamento e escalabilidade da infraestrutura de IA em produção.",
+    "competencias": ["MLOps", "deploy de modelos", "integração contínua", "monitoramento de modelos", "versionamento", "containerização", "automação de pipelines", "infraestrutura em nuvem"],
+    "tecnologias": ["Docker", "Kubernetes", "MLflow", "Apache Airflow", "AWS", "Python", "Terraform"],
+    "area": "Engenharia de Dados"
+  },
+  {
+    "id": "bi_analyst",
+    "nome": "Analista de Business Intelligence",
+    "descricao": "Transforma dados corporativos em indicadores e relatórios para apoiar decisões de negócio, modelando armazéns de dados, construindo dashboards e fazendo análises OLAP.",
+    "competencias": ["business intelligence", "data warehouse", "modelagem dimensional", "OLAP", "ETL", "visualização de dados", "análise de dados", "consultas analíticas", "suporte à decisão"],
+    "tecnologias": ["SQL", "Power BI", "Tableau", "Excel", "PostgreSQL"],
+    "area": "Ciência de Dados"
+  },
+  {
+    "id": "statistician",
+    "nome": "Estatístico / Cientista de Dados Estatístico",
+    "descricao": "Modela incerteza e relações entre variáveis com métodos estatísticos rigorosos, aplicando inferência, regressão e análise multivariada para análise e previsão a partir de dados.",
+    "competencias": ["estatística", "inferência estatística", "probabilidade", "regressão linear", "testes de hipóteses", "análise multivariada", "análise de componentes principais", "distribuições de probabilidade", "intervalos de confiança"],
+    "tecnologias": ["R", "Python", "SAS", "SQL", "statsmodels"],
+    "area": "Estatística"
+  },
+  {
+    "id": "database_administrator",
+    "nome": "Administrador de Banco de Dados",
+    "descricao": "Projeta, otimiza e mantém bancos de dados, garantindo integridade, desempenho de consultas, controle de concorrência e segurança dos dados.",
+    "competencias": ["bancos de dados relacionais", "modelagem de dados", "SQL", "normalização", "integridade de dados", "controle de concorrência", "transações", "indexação", "otimização de consultas"],
+    "tecnologias": ["SQL", "PostgreSQL", "MySQL", "Oracle", "MongoDB"],
+    "area": "Engenharia de Dados"
+  },
+  {
+    "id": "robotics_engineer",
+    "nome": "Engenheiro de Robótica",
+    "descricao": "Projeta e controla robôs móveis e manipuladores, integrando percepção por sensores, planejamento de trajetórias, controle e inteligência artificial para comportamento autônomo.",
+    "competencias": ["robótica", "cinemática", "controle de sistemas dinâmicos", "planejamento de trajetórias", "localização e mapeamento", "percepção", "sensores e atuadores", "tomada de decisão autônoma", "sistemas de controle"],
+    "tecnologias": ["ROS", "Python", "C++", "MATLAB", "Arduino"],
+    "area": "Robótica e Controle"
+  },
+  {
+    "id": "signal_processing_engineer",
+    "nome": "Engenheiro de Processamento de Sinais",
+    "descricao": "Analisa e processa sinais digitais como áudio e telecomunicações, projetando filtros digitais e aplicando transformadas em domínios de tempo e frequência.",
+    "competencias": ["processamento digital de sinais", "filtros digitais", "transformada de Fourier", "FFT", "transformada Z", "sistemas dinâmicos", "amostragem e reconstrução", "análise em frequência"],
+    "tecnologias": ["MATLAB", "Python", "SciPy", "C", "DSP"],
+    "area": "Robótica e Controle"
+  },
+  {
+    "id": "control_engineer",
+    "nome": "Engenheiro de Controle e Automação",
+    "descricao": "Modela e controla sistemas dinâmicos, projetando controladores realimentados, analisando estabilidade e resposta em frequência para automatizar processos.",
+    "competencias": ["sistemas dinâmicos", "controle automático", "função de transferência", "análise de estabilidade", "lugar das raízes", "controladores realimentados", "resposta em frequência", "modelagem de sistemas"],
+    "tecnologias": ["MATLAB", "Simulink", "Python", "CLP", "LabVIEW"],
+    "area": "Robótica e Controle"
+  },
+  {
+    "id": "operations_research_analyst",
+    "nome": "Analista de Pesquisa Operacional",
+    "descricao": "Formula e resolve problemas de decisão e otimização de recursos por meio de modelagem matemática, programação linear e inteira e análise de sensibilidade.",
+    "competencias": ["pesquisa operacional", "programação linear", "programação inteira", "otimização", "método simplex", "problemas de redes", "análise de sensibilidade", "modelagem matemática", "otimização de recursos"],
+    "tecnologias": ["Python", "Gurobi", "CPLEX", "AMPL", "PuLP"],
+    "area": "Otimização"
+  },
+  {
+    "id": "optimization_engineer",
+    "nome": "Engenheiro de Otimização",
+    "descricao": "Resolve problemas de otimização não linear em engenharia e aprendizado de máquina, aplicando condições de otimalidade, métodos de gradiente e algoritmos iterativos de busca.",
+    "competencias": ["otimização não linear", "métodos de gradiente", "métodos de Newton", "multiplicadores de Lagrange", "condições de otimalidade", "otimização com restrições", "cálculo multivariável", "álgebra linear"],
+    "tecnologias": ["Python", "SciPy", "NumPy", "CVXPY", "MATLAB"],
+    "area": "Otimização"
+  },
+  {
+    "id": "decision_analyst",
+    "nome": "Analista de Decisão e Risco",
+    "descricao": "Estrutura e resolve problemas de decisão sob incerteza, avaliando alternativas com base em teoria da utilidade, decisão bayesiana, valor da informação e análise de risco.",
+    "competencias": ["teoria da decisão", "decisão sob incerteza", "teoria da utilidade", "árvores de decisão", "decisão bayesiana", "análise de risco", "decisão multicritério", "probabilidade"],
+    "tecnologias": ["Python", "R", "Excel", "Monte Carlo"],
+    "area": "Otimização"
+  },
+  {
+    "id": "pattern_recognition_engineer",
+    "nome": "Engenheiro de Reconhecimento de Padrões",
+    "descricao": "Projeta sistemas de classificação que reconhecem padrões em dados, extraindo e selecionando características e avaliando o desempenho de classificadores estatísticos.",
+    "competencias": ["reconhecimento de padrões", "extração de características", "seleção de características", "classificadores estatísticos", "teoria de decisão bayesiana", "agrupamento", "redução de dimensionalidade", "avaliação de classificadores"],
+    "tecnologias": ["Python", "scikit-learn", "NumPy", "MATLAB"],
+    "area": "Inteligência Artificial"
+  },
+  {
+    "id": "backend_developer",
+    "nome": "Desenvolvedor Backend",
+    "descricao": "Implementa a lógica de servidor e a camada de dados de aplicações, aplicando estruturas de dados, algoritmos, modelagem de bancos de dados e boas práticas de projeto de software.",
+    "competencias": ["programação orientada a objetos", "estruturas de dados", "algoritmos", "bancos de dados", "SQL", "projeto de software", "testes de software", "APIs"],
+    "tecnologias": ["Python", "Java", "Node.js", "PostgreSQL", "Docker", "Git"],
+    "area": "Engenharia de Software"
+  },
+  {
+    "id": "algorithms_specialist",
+    "nome": "Especialista em Algoritmos",
+    "descricao": "Projeta e analisa algoritmos eficientes para problemas complexos, dominando paradigmas clássicos, análise de complexidade, teoria de NP-completude e algoritmos de aproximação.",
+    "competencias": ["projeto de algoritmos", "análise de complexidade", "programação dinâmica", "algoritmos gulosos", "divisão e conquista", "algoritmos em grafos", "NP-completude", "algoritmos de aproximação", "estruturas de dados"],
+    "tecnologias": ["C++", "Python", "Java"],
+    "area": "Engenharia de Software"
+  },
+  {
+    "id": "deep_learning_engineer",
+    "nome": "Engenheiro de Deep Learning",
+    "descricao": "Especialista em redes neurais profundas, projeta e treina arquiteturas de aprendizado profundo para visão, linguagem e dados estruturados, otimizando treinamento em GPU.",
+    "competencias": ["aprendizado profundo", "redes neurais", "redes convolucionais", "redes recorrentes", "treinamento de modelos", "regularização", "otimização de hiperparâmetros", "transfer learning", "aprendizado de máquina"],
+    "tecnologias": ["Python", "PyTorch", "TensorFlow", "CUDA", "Keras"],
+    "area": "Inteligência Artificial"
+  },
+  {
+    "id": "data_analyst",
+    "nome": "Analista de Dados",
+    "descricao": "Explora, limpa e analisa dados para responder perguntas de negócio, produzindo análises estatísticas exploratórias, visualizações e relatórios.",
+    "competencias": ["análise de dados", "análise exploratória", "estatística descritiva", "visualização de dados", "limpeza de dados", "SQL", "comunicação de resultados", "correlação"],
+    "tecnologias": ["Python", "pandas", "SQL", "Excel", "Power BI", "Matplotlib"],
+    "area": "Ciência de Dados"
+  }
+]

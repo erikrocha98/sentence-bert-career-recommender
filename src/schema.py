@@ -50,3 +50,45 @@ def texto_para_embedding(d: Disciplina) -> str:
     """
     partes = [d.get("nome", ""), d.get("ementa", ""), d.get("objetivos", "")]
     return ". ".join(p.strip() for p in partes if p and p.strip())
+
+
+class Perfil(TypedDict):
+    id: str
+    nome: str  # nome do cargo/carreira
+    descricao: str
+    competencias: list[str]
+    tecnologias: list[str]
+    area: str
+
+
+CAMPOS_OBRIGATORIOS_PERFIL = (
+    "id",
+    "nome",
+    "descricao",
+    "competencias",
+    "tecnologias",
+    "area",
+)
+
+
+def validar_perfil(p: dict) -> None:
+    """Valida o mínimo: presença dos campos e tipos básicos. Levanta ``ValueError``."""
+    faltando = [c for c in CAMPOS_OBRIGATORIOS_PERFIL if c not in p]
+    if faltando:
+        raise ValueError(f"Perfil {p.get('id', '?')}: campos ausentes: {faltando}")
+    if not isinstance(p["competencias"], list):
+        raise ValueError(f"Perfil {p['id']}: 'competencias' deve ser uma lista")
+    if not isinstance(p["tecnologias"], list):
+        raise ValueError(f"Perfil {p['id']}: 'tecnologias' deve ser uma lista")
+
+
+def texto_para_embedding_perfil(p: Perfil) -> str:
+    """Concatena descrição + competências + tecnologias em um texto para vetorização.
+
+    Contrato do CLAUDE.md (Fonte C). As listas de competências e tecnologias são unidas
+    com ``", "``; campos/itens vazios são ignorados, espelhando ``texto_para_embedding``.
+    """
+    competencias = ", ".join(c.strip() for c in p.get("competencias", []) if c and c.strip())
+    tecnologias = ", ".join(t.strip() for t in p.get("tecnologias", []) if t and t.strip())
+    partes = [p.get("descricao", ""), competencias, tecnologias]
+    return ". ".join(p_.strip() for p_ in partes if p_ and p_.strip())
