@@ -1,0 +1,30 @@
+{
+  "n_casos": {
+    "carreiras": 20,
+    "disciplinas": 13
+  },
+  "carreiras": {
+    "TF-IDF": {
+      "top1_accuracy": 0.9,
+      "hit_at_3": 1.0,
+      "mrr": 0.95
+    },
+    "Sentence-BERT": {
+      "top1_accuracy": 0.95,
+      "hit_at_3": 1.0,
+      "mrr": 0.9666666666666666
+    }
+  },
+  "disciplinas": {
+    "TF-IDF": {
+      "precision_at_3": 0.7692307692307693,
+      "recall_at_3": 0.7692307692307693,
+      "mrr": 0.9615384615384616
+    },
+    "Sentence-BERT": {
+      "precision_at_3": 0.641025641025641,
+      "recall_at_3": 0.641025641025641,
+      "mrr": 0.8999999999999999
+    }
+  }
+}

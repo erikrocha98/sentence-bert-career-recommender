@@ -1,0 +1,138 @@
+{
+  "carreiras": [
+    {
+      "query": "quero desenvolver modelos de machine learning para produtos reais",
+      "esperado": "ml_engineer"
+    },
+    {
+      "query": "tenho interesse em chatbots, busca semantica e modelos de linguagem",
+      "esperado": "nlp_engineer"
+    },
+    {
+      "query": "quero construir pipelines de dados, ETL e data warehouses",
+      "esperado": "data_engineer"
+    },
+    {
+      "query": "gosto de arquitetura de software, testes automatizados e manutencao de sistemas",
+      "esperado": "software_engineer"
+    },
+    {
+      "query": "quero trabalhar com deteccao de objetos em imagens e videos",
+      "esperado": "computer_vision_scientist"
+    },
+    {
+      "query": "quero pesquisar novos algoritmos de inteligencia artificial e escrever artigos",
+      "esperado": "ai_researcher"
+    },
+    {
+      "query": "quero descobrir padroes em grandes bases de dados e segmentar usuarios",
+      "esperado": "data_mining_specialist"
+    },
+    {
+      "query": "tenho interesse em colocar modelos em producao, monitorar drift e automatizar deploy",
+      "esperado": "mlops_engineer"
+    },
+    {
+      "query": "quero criar dashboards, indicadores de negocio e relatorios para gestao",
+      "esperado": "bi_analyst"
+    },
+    {
+      "query": "gosto de inferencia estatistica, probabilidade e planejamento de experimentos",
+      "esperado": "statistician"
+    },
+    {
+      "query": "quero administrar bancos de dados, otimizar consultas e cuidar de disponibilidade",
+      "esperado": "database_administrator"
+    },
+    {
+      "query": "quero programar robos com sensores, atuadores e navegacao autonoma",
+      "esperado": "robotics_engineer"
+    },
+    {
+      "query": "tenho interesse em filtros, sinais no dominio da frequencia e processamento digital",
+      "esperado": "signal_processing_engineer"
+    },
+    {
+      "query": "quero projetar controladores para sistemas dinamicos e automacao industrial",
+      "esperado": "control_engineer"
+    },
+    {
+      "query": "quero otimizar rotas, alocacao de recursos e problemas de logistica",
+      "esperado": "operations_research_analyst"
+    },
+    {
+      "query": "gosto de tomada de decisao, analise de risco e incerteza",
+      "esperado": "decision_analyst"
+    },
+    {
+      "query": "quero desenvolver APIs, servicos web e sistemas de backend escalaveis",
+      "esperado": "backend_developer"
+    },
+    {
+      "query": "quero estudar complexidade, estruturas de dados e algoritmos eficientes",
+      "esperado": "algorithms_specialist"
+    },
+    {
+      "query": "quero treinar redes neurais profundas e modelos generativos",
+      "esperado": "deep_learning_engineer"
+    },
+    {
+      "query": "quero analisar dados, preparar visualizacoes e apoiar decisoes operacionais",
+      "esperado": "data_analyst"
+    }
+  ],
+  "disciplinas": [
+    {
+      "query": "aprendizado de maquina, redes neurais, avaliacao de modelos",
+      "esperados": ["EEEXXA", "EEEXXB", "DCC043"]
+    },
+    {
+      "query": "SQL, modelagem relacional, data warehouse e consultas em banco de dados",
+      "esperados": ["DCC011", "DCC189", "DCC212"]
+    },
+    {
+      "query": "estatistica, regressao, probabilidade e analise multivariada",
+      "esperados": ["EST773", "EST035", "EST011"]
+    },
+    {
+      "query": "algoritmos, complexidade, grafos e estruturas discretas",
+      "esperados": ["DCC206", "DCC207", "DCCXXA"]
+    },
+    {
+      "query": "programacao orientada a objetos, estruturas de dados e desenvolvimento de software",
+      "esperados": ["DCC204", "DCC205", "DCC024"]
+    },
+    {
+      "query": "visao computacional, processamento de imagens, reconhecimento de padroes",
+      "esperados": ["DCC043", "DCC029", "ELT135"]
+    },
+    {
+      "query": "robotica, sensores, controle e sistemas autonomos",
+      "esperados": ["DCC041", "ELTXXA", "ELEXXM"]
+    },
+    {
+      "query": "otimizacao, programacao linear, decisao e pesquisa operacional",
+      "esperados": ["ELE082", "ELE077", "ELE088"]
+    },
+    {
+      "query": "mineracao de dados, ciencia dos dados e descoberta de conhecimento",
+      "esperados": ["DCC057", "DCC212", "EST773"]
+    },
+    {
+      "query": "sinais, filtros, sistemas dinamicos e processamento digital",
+      "esperados": ["ELEXXM", "DCC029", "ELTXXA"]
+    },
+    {
+      "query": "linguagens de programacao, paradigmas, semantica e sistemas de tipos",
+      "esperados": ["DCC024", "DCC205", "DCC206"]
+    },
+    {
+      "query": "programacao, banco de dados, estruturas de dados e sistemas computacionais",
+      "esperados": ["DCC204", "DCC011", "DCC205"]
+    },
+    {
+      "query": "organizacao de computadores, memoria, processador e sistemas operacionais",
+      "esperados": ["DCCXXX", "DCC204", "DCC205"]
+    }
+  ]
+}

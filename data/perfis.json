@@ -34,9 +34,9 @@
   {
     "id": "nlp_engineer",
     "nome": "Engenheiro de Processamento de Linguagem Natural",
-    "descricao": "Desenvolve sistemas que entendem e geram linguagem humana, aplicando aprendizado profundo, embeddings e modelos de linguagem a tarefas como busca semântica, classificação e extração de informação.",
-    "competencias": ["processamento de linguagem natural", "aprendizado profundo", "redes neurais", "representação de conhecimento", "embeddings", "busca semântica", "aprendizado de máquina", "modelos de linguagem"],
-    "tecnologias": ["Python", "PyTorch", "Hugging Face Transformers", "spaCy", "sentence-transformers", "BERT"],
+    "descricao": "Desenvolve sistemas que entendem e geram linguagem humana, aplicando aprendizado profundo, embeddings, Transformers, LLMs e IA generativa a tarefas como chatbots, busca semântica, classificação e extração de informação.",
+    "competencias": ["processamento de linguagem natural", "IA generativa", "modelos de linguagem", "LLMs", "Transformers", "chatbots", "aprendizado profundo", "redes neurais", "representação de conhecimento", "embeddings", "busca semântica", "aprendizado de máquina"],
+    "tecnologias": ["Python", "PyTorch", "Hugging Face Transformers", "spaCy", "sentence-transformers", "BERT", "LangChain"],
     "area": "Inteligência Artificial"
   },
   {
@@ -122,8 +122,8 @@
   {
     "id": "operations_research_analyst",
     "nome": "Analista de Pesquisa Operacional",
-    "descricao": "Formula e resolve problemas de decisão e otimização de recursos por meio de modelagem matemática, programação linear e inteira e análise de sensibilidade.",
-    "competencias": ["pesquisa operacional", "programação linear", "programação inteira", "otimização", "método simplex", "problemas de redes", "análise de sensibilidade", "modelagem matemática", "otimização de recursos"],
+    "descricao": "Formula e resolve problemas de decisão, logística, roteirização e otimização de recursos por meio de modelagem matemática, programação linear e inteira e análise de sensibilidade.",
+    "competencias": ["pesquisa operacional", "programação linear", "programação inteira", "otimização", "método simplex", "problemas de redes", "rotas", "roteirização", "logística", "transporte", "alocação de recursos", "análise de sensibilidade", "modelagem matemática", "otimização de recursos"],
     "tecnologias": ["Python", "Gurobi", "CPLEX", "AMPL", "PuLP"],
     "area": "Otimização"
   },
@@ -154,9 +154,9 @@
   {
     "id": "backend_developer",
     "nome": "Desenvolvedor Backend",
-    "descricao": "Implementa a lógica de servidor e a camada de dados de aplicações, aplicando estruturas de dados, algoritmos, modelagem de bancos de dados e boas práticas de projeto de software.",
-    "competencias": ["programação orientada a objetos", "estruturas de dados", "algoritmos", "bancos de dados", "SQL", "projeto de software", "testes de software", "APIs"],
-    "tecnologias": ["Python", "Java", "Node.js", "PostgreSQL", "Docker", "Git"],
+    "descricao": "Implementa APIs, serviços web e lógica de servidor para aplicações escaláveis, integrando bancos de dados, autenticação, mensageria, microsserviços e boas práticas de projeto de software.",
+    "competencias": ["programação orientada a objetos", "estruturas de dados", "algoritmos", "bancos de dados", "SQL", "projeto de software", "testes de software", "APIs REST", "serviços web", "backend", "microsserviços", "autenticação", "escalabilidade"],
+    "tecnologias": ["Python", "Java", "Node.js", "PostgreSQL", "Docker", "Git", "FastAPI", "Spring Boot"],
     "area": "Engenharia de Software"
   },
   {
