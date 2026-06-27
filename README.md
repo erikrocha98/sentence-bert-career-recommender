@@ -39,13 +39,17 @@ consulta do aluno é vetorizada a cada busca.
 ├── data/
 │   ├── disciplinas.json # catálogo de disciplinas da UFMG (nome, ementa, pré-requisitos…)
 │   ├── perfis.json      # perfis de carreira curados à mão (Fonte C)
+│   ├── README.md        # proveniência e limitações dos dados
 │   └── *_emb.pkl        # embeddings pré-computados (registros {id, texto, embedding})
 ├── scripts/
 │   ├── gerar_embeddings.py         # gera data/disciplinas_emb.pkl
 │   ├── gerar_embeddings_perfis.py  # gera data/perfis_emb.pkl
+│   ├── avaliar_modelos.py          # compara Sentence-BERT vs TF-IDF e gera figuras
 │   ├── smoke_test.py               # checagem rápida do ambiente (modelo + busca)
 │   └── validar_*.py                # validação MANUAL (impressão p/ conferência humana)
 ├── tests/               # testes mínimos (cosseno, roadmap, schema, hops, integração)
+├── results/             # métricas, CSVs e figuras da avaliação quantitativa
+├── TP3_Recomendacao_Carreiras_UFMG.ipynb # notebook/Colab do trabalho
 ├── app.py               # interface de demonstração em Gradio
 └── requirements.txt
 ```
@@ -111,4 +115,33 @@ print(res["carreira"], res["disciplinas"], res["justificativa"])
 pytest tests/ -q                      # testes automatizados
 python scripts/smoke_test.py          # sanidade do ambiente (modelo + busca)
 python scripts/validar_carreiras.py   # conferência humana do Hop 1 + pipeline
+python scripts/avaliar_modelos.py      # avaliação quantitativa + figuras do relatório
 ```
+
+### Resultados medidos
+
+A avaliação quantitativa usa `data/consultas_avaliacao.json` com 20 consultas de carreira
+e 13 consultas de competências para disciplinas. O baseline TF-IDF é treinado apenas sobre os
+textos dos catálogos, sem usar os rótulos esperados.
+
+Última execução local:
+
+| Tarefa | Método | Métrica principal |
+|---|---:|---:|
+| Hop 1 — carreira | TF-IDF | top-1 = 0.90, hit@3 = 1.00 |
+| Hop 1 — carreira | Sentence-BERT | top-1 = 0.95, hit@3 = 1.00 |
+| Hop 2 — disciplinas | TF-IDF | precision@3 = 0.77 |
+| Hop 2 — disciplinas | Sentence-BERT | precision@3 = 0.64 |
+
+Esse resultado é analisado no relatório: Sentence-BERT ficou melhor no mapeamento
+texto-livre → carreira, enquanto TF-IDF ainda vence em disciplinas porque as ementas curadas
+são curtas e muito lexicalizadas. A avaliação expõe casos em que a curadoria dos textos e um
+reranking híbrido ainda melhorariam o sistema.
+
+### Proveniência dos dados
+
+A Fonte A é um catálogo curado para protótipo acadêmico, baseado na estrutura curricular
+presente em `V2-1_4_Apendice_2_Estrutura_Curricular_FEV2024.pdf`. A versão atual mantém 30
+disciplinas curadas. Os detalhes estão em `data/README.md`.
+
+Os arquivos `data/*_emb.pkl` são artefatos derivados dos JSONs, não fontes independentes.
